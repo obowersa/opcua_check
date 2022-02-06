@@ -1,4 +1,5 @@
 # OPCUA Checker
+[![Go Report Card](https://goreportcard.com/badge/github.com/obowersa/opcuacheck)](https://goreportcard.com/report/github.com/obowersa/opcuacheck)
 ## WIP - Simple and light weight way to check OPCUA connections
 Golang CLI which allows for retreieving variables over OPCUA as well as checking basic connectivity information.
 
