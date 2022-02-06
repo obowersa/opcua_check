@@ -1,0 +1,11 @@
+---
+# timeout: 3
+# endpoint: "opc.tcp://localhost:5001"
+# output: ""
+basevariables:
+  dummy_plc_one:
+    - "ns=4;s=PLC_PLC_One_Dummy_Var_1"
+
+  dummy_plc_two:
+    - "ns=4;s=OPC_PLC_Two_Dummy_Var_1"
+    - "ns=4;s=OPC_PLC_Two_Dummy_Var_2"
