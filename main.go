@@ -1,9 +1,10 @@
 package main
 
 import (
-	"opcua_check/internal/commands"
-	"opcua_check/internal/config"
 	"os"
+
+	"github.com/obowersa/opcuacheck/internal/commands"
+	"github.com/obowersa/opcuacheck/internal/config"
 )
 
 func main() {

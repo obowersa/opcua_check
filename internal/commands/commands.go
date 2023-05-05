@@ -2,14 +2,14 @@ package commands
 
 import (
 	"fmt"
-	"opcua_check/internal/config"
 
+	"github.com/obowersa/opcuacheck/internal/config"
 	"github.com/spf13/cobra"
 )
 
 func BuildRootCommand(c *config.Config) *cobra.Command {
 	cmd := &cobra.Command{
-		Use: "opcua_check",
+		Use: "opcuacheck",
 		PersistentPreRun: func(cmd *cobra.Command, args []string) {
 			err := c.InitializeConfig(cmd)
 			if err != nil {

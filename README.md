@@ -9,3 +9,16 @@ Still work in progress. Main areas which need improvement:
 - Build/release process ( currently relies on folk reading the makefile )
 - Expand the testing to cover the CLI component ( similar to what I did for the wfwiki project ) 
 - Add in dockerfile support ( with container structure tests/etc )
+
+## To run/build
+- Ensure you have make installed
+- Ensure you have go 1.20 installed
+- Run make-run-all
+
+To build for a specific platform, run:
+
+- make build-<platform>
+
+Type make for more help info
+
+Once built, execute the output in bin/ to see the CLI help info

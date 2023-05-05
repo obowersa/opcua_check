@@ -1,6 +1,6 @@
 module github.com/obowersa/opcuacheck
 
-go 1.17
+go 1.20
 
 require (
 	github.com/gopcua/opcua v0.3.1

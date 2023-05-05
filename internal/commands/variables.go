@@ -3,8 +3,9 @@ package commands
 import (
 	"encoding/json"
 	"fmt"
-	"opcua_check/internal/config"
-	"opcua_check/pkg/opcua"
+
+	"github.com/obowersa/opcuacheck/internal/config"
+	"github.com/obowersa/opcuacheck/pkg/opcua"
 )
 
 func getVariables(c *config.Config, args []string) {

@@ -2,8 +2,9 @@ package commands
 
 import (
 	"context"
-	"opcua_check/internal/config"
 	"time"
+
+	"github.com/obowersa/opcuacheck/internal/config"
 
 	"github.com/spf13/cobra"
 )
