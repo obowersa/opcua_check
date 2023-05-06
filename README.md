@@ -15,9 +15,7 @@ Still work in progress. Main areas which need improvement:
 - Ensure you have go 1.20 installed
 - Run make-run-all
 
-To build for a specific platform, run:
-
-- make build-<platform>
+To build, either run make build-all or specify your platform 
 
 Type make for more help info
 
